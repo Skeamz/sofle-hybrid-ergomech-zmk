@@ -1,20 +1,6 @@
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
-  lower:
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '`'
+  default:
+  - ESCAPE
   - '1'
   - '2'
   - '3'
@@ -25,112 +11,319 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F12
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
   - '-'
-  - +
-  - '{'
-  - '}'
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
+  - TAB
+  - Q
+  - W
+  - F
+  - P
   - B
-  - C
-  - D
+  - J
+  - L
+  - U
+  - Y
+  - '['
+  - ;
+  - BACKSPACE
+  - A
+  - R
+  - S
+  - T
+  - G
+  - K
+  - N
   - E
-  raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
+  - I
+  - O
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - D
+  - C
+  - V
+  - M
+  - H
+  - ','
+  - .
+  - /
+  - RSHFT
+  - MUTE
+  - LCTRL
+  - LEFT GUI
+  - LEFT ALT
+  - raise
+  - SPACE
+  - ENTER
+  - lower
+  - BACKSPACE
+  - DEL
+  - RCTRL
+  - {t: default, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: alt_QWERTZ, h: toggle}
+  - {t: lower, h: toggle}
+  - {t: alt_GAMING, h: toggle}
+  alt_QWERTZ:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - BSPC
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Y
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - MUTE
+  - LCTRL
+  - LGUI
   - LALT
+  - raise
+  - SPACE
+  - ENTER
+  - lower
+  - BSPC
+  - DEL
+  - RCTRL
+  - {t: default, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: alt_QWERTZ, h: toggle}
+  - {t: lower, h: toggle}
+  - {t: alt_GAMING, h: toggle}
+  alt_GAMING:
+  - ESC
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - F3
+  - '7'
+  - '8'
+  - '9'
+  - KP SLASH
+  - /
+  - I
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - F5
+  - '4'
+  - '5'
+  - '6'
+  - Sft+]
+  - ']'
+  - J
+  - M
+  - A
+  - S
+  - D
+  - F
+  - F9
+  - '1'
+  - '2'
+  - '3'
+  - Sft+8
+  - Sft+9
   - LCTRL
   - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
+  - Y
+  - X
+  - C
+  - V
+  - F11
+  - '0'
+  - .
+  - ','
+  - AltGr+8
+  - AltGr+9
+  - MUTE
+  - LCTRL
+  - LEFT GUI
+  - LEFT ALT
+  - RIGHT ALT
+  - SPACE
+  - ENTER
+  - default
   - BSPC
+  - DELETE
+  - RCTRL
+  - {t: default, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: alt_QWERTZ, h: toggle}
+  - {t: lower, h: toggle}
+  - {t: alt_GAMING, h: toggle}
+  lower:
+  - ESC
+  - '~'
+  - AltGr+2
+  - AltGr+3
+  - AltGr+E
+  - \
+  - Sft+\
+  - AltGr+7
+  - AltGr+8
+  - AltGr+9
+  - AltGr+0
+  - AltGr+-
+  - TAB
+  - AltGr+Q
+  - Sft+#
+  - '~'
+  - '#'
+  - '`'
+  - TAB
+  - ''
+  - UP ARROW
+  - ''
+  - HOME
+  - PAGE UP
+  - BSPC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - END
+  - PAGE DOWN
+  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
+  - MUTE
+  - LCTRL
+  - LGUI
+  - LALT
+  - default
+  - SPACE
+  - ENTER
+  - {t: raise, type: held}
+  - BSPC
+  - DELETE
+  - RCTRL
+  - {t: default, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: alt_QWERTZ, h: toggle}
+  - {t: lower, h: toggle}
+  - {t: alt_GAMING, h: toggle}
+  raise:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F3
+  - '7'
+  - '8'
+  - '9'
+  - KP DIVIDE
+  - /
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - F5
+  - '4'
+  - '5'
+  - '6'
+  - Sft+]
+  - ']'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - F9
+  - '1'
+  - '2'
+  - '3'
+  - Sft+8
+  - Sft+9
+  - CAPSLOCK
   - UNDO
   - CUT
   - COPY
   - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - TAB
+  - F11
+  - '0'
+  - .
+  - ','
+  - AltGr+E
+  - LEFT SHIFT
+  - MUTE
+  - LCTRL
+  - LEFT GUI
+  - LEFT ALT
+  - {t: default, type: held}
+  - SPACE
+  - ENTER
+  - lower
+  - BSPC
+  - DELETE
+  - RCTRL
+  - {t: default, h: toggle}
+  - {t: raise, h: toggle}
+  - {t: alt_QWERTZ, h: toggle}
+  - {t: lower, h: toggle}
+  - {t: alt_GAMING, h: toggle}
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -191,8 +384,8 @@ layers:
   - ''
   - ''
   - ''
-  - A
-  - B
-  - C
-  - D
-  - E
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
