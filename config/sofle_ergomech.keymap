@@ -116,10 +116,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp F1        &kp F2      &kp F3        &kp F4        &kp F5       &kp F6     &kp F3     &kp N7  &kp N8    &kp N9      &kp FSLH              &kp MINUS
-&kp F7        &kp F8      &kp F9        &kp F10       &kp F11      &kp F12    &kp F5     &kp N4  &kp N5    &kp N6      &kp ASTERISK          &kp PLUS
-&trans        &none       &none         &none         &trans       &none      &kp F9     &kp N1  &kp N2    &kp N3      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp CAPSLOCK  &kp K_UNDO  &kp K_CUT     &kp K_COPY    &kp K_PASTE  &kp TAB    &kp F11    &kp N0  &kp DOT   &kp COMMA   &kp EQUAL             &kp RA(E)
+&kp F1        &kp F2      &kp F3        &kp F4        &kp F5       &kp F6     &kp F3     &kp N7  &kp N8    &kp N9      &kp KP_DIVIDE  &kp MINUS
+&kp F7        &kp F8      &kp F9        &kp F10       &kp F11      &kp F12    &kp F5     &kp N4  &kp N5    &kp N6      &kp ASTERISK   &kp PLUS
+&trans        &none       &none         &none         &trans       &none      &kp F9     &kp N1  &kp N2    &kp N3      &kp LS(N8)     &kp LS(N9)
+&kp CAPSLOCK  &kp K_UNDO  &kp K_CUT     &kp K_COPY    &kp K_PASTE  &kp TAB    &kp F11    &kp N0  &kp DOT   &kp COMMA   &kp RA(E)      &kp LEFT_SHIFT
 &kp C_MUTE    &kp LCTRL   &kp LEFT_GUI  &kp LEFT_ALT  &mo 0        &kp SPACE  &kp ENTER  &mo 3   &kp BSPC  &kp DELETE  &kp RCTRL
                                                                               &tog 0     &tog 4  &tog 1    &tog 3      &tog 2
             >;
