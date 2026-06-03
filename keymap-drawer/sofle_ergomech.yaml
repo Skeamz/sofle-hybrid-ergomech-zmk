@@ -302,7 +302,7 @@ layers:
   - CUT
   - COPY
   - PASTE
-  - TAB
+  - '&studio_unlock'
   - F11
   - '0'
   - .
